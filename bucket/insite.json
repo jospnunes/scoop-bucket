@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "description": "Full X-ray of a website from the terminal: network, TLS, DNS, stack, security, SEO and weight (--browser is not available on Windows yet)",
+  "homepage": "https://github.com/jospnunes/insite",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/jospnunes/insite/releases/download/v0.1.0/insite-x86_64-pc-windows-msvc.zip",
+      "hash": "9a6838d74981fb1d32fe65fe50cedaa37d33a76e1d69f747e46624f26ad5fcc6"
+    }
+  },
+  "bin": "insite.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/jospnunes/insite/releases/download/v$version/insite-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  }
+}
